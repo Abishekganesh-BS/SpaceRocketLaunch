@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="Game" content="This is a rocket Game" />
+  <meta charset="utf-8">
+  <title>SpaceRokcetLaunch</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="">
+  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="rocket.css">
+   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+     
+      <script src="rocket.js"></script></body>
+   
+</head>
+
+
+
+
+
+<body>
+	 
+
+<div class = "demo-content" id = "demo-content">
+	
+ <div id ="loader-wrapper" class="demo-content">
+ 	<img src="https://i.pinimg.com/originals/88/4e/d9/884ed977a18ea6ada1c4f7718856697e.gif" id="gameimg" draggable ="false">
+ 	
+   <div  id="loader"></div>
+
+   <br />
+       
+
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div> 
+ </div>
+      <div id="content" class="content">
+      	<!--<div class ="background"></div>-->
+      	<img class ="background" >
+      	<div id="box" class="box">
+      		
+      		<div></div>
+      		<div></div>
+      		<div></div>
+      		<div></div>
+      		<div></div>
+      		<div></div>
+      		<div></div>
+      		<div></div>
+      		<div></div>
+      		<div></div>
+
+
+      	</div>
+<input type="button" value="Play!"   class="button1" id="playbutton"  onclick="playbutton()" >
+
+  </div>
+
+  <div id="maingame">
+  	
+  	<div id="controllers">
+  	<input type="button" id="movefront" onclick="movef()">
+  	<input type="button" id="moveback" onclick="moveb()">
+  	<input type="button" id="moveright" onclick="mover()">
+  	<input type="button" id="moveleft" onclick="movel()">
+  	
+  	</div>
+  	
+  	<input type="image"src="https://static.thenounproject.com/png/1991936-200.png" id="backbutton" onclick="backbutton()" draggable="false">
+  	<div id="hero"></div>
+  	<div id="laser0"></div>
+    <div id="laser1"></div>
+    <div id="laser2"></div>
+    <div id="score"></div>
+    <div id="enemy" ></div>
+    <div id="gameover">GAME OVER</div>
+ 
+  </div>
+   </div>
+</body>
+ <script src="rocket.js"></script></body>
+
+ 
+</html>
